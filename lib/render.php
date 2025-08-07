@@ -50,7 +50,7 @@ function sw_render_markdown(string $markdown): string {
  *   'meta' => ['title' => '...', 'date' => 'YYYY-MM-DD', ...],
  *   'mtime' => 1234567890
  * ]
- * Strategy: recursively find *.md and */index.md under posts_dir.
+ * Strategy: recursively find *.md and \*\/index.md under posts_dir.
  * Slug is the filename without extension or the parent dir name for index.md.
  */
 function sw_discover_posts(string $posts_dir): array {
