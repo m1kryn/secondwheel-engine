@@ -1,0 +1,5 @@
+# secondwheel-engine/public/.htaccess
+RewriteEngine On
+# If you later move post.php under /public, adjust RewriteBase
+RewriteBase /
+RewriteRule ^post/([A-Za-z0-9._-]+)/?$ /post.php?slug=$1 [L,QSA]
