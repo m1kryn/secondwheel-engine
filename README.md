@@ -27,6 +27,4 @@ summary: Optional one-liner for the index.
 
 ## Parsedown
 
-This scaffold includes a tiny shim of Parsedown for demo purposes.
-Replace `lib/Parsedown.php` with the real library from https://parsedown.org
-for production-quality Markdown rendering.
+This engine uses [Parsedown](https://parsedown.org) for Markdown rendering. The library is included in `lib/Parsedown.php`, so no extra installation steps are required.
